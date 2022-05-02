@@ -202,12 +202,12 @@ span::after{
 }
 .nav-pills li a{
     margin:0px 10px;
+    padding: 10PX 18PX;
 }
 .nav-pills .active{
     background-color: #f0326b !important;
-    padding: 10PX 18PX;
 }
-.btnsr{
+.btnsre{
     width: 230px;
     height: 60px;
     font-size: 25px !important;
@@ -215,3 +215,8 @@ span::after{
     background:var(--linear) ;
     color: white !important;
 }
+@media screen and (max-width: 585px) {
+    .imgf{
+        height: 400px !important;
+    }
+   }
