@@ -64,9 +64,6 @@ nav li{
     background: var(--linear);
     color: white !important;
 }
-.late{
-    letter-spacing: 3px;
-}
 .header-item span::after{
     width: 50px !important;
     margin-top: 25px;
@@ -84,7 +81,7 @@ span::after{
     font-weight: 600;
 }
 .header-item{
-    height: 400px;
+    height: 100%;
 }
 .tez{
     font-size: 12px;
@@ -188,12 +185,6 @@ span::after{
 .navbar-toggler{
     color: white !important;
 }
-@media screen and (min-width: 992px) {
-   .navbar-collapse{
-       display: flex;
-       justify-content: flex-end;
-   }
-  }
   .header-top .col-11{
       background-color: #e2578a;
   }
@@ -215,8 +206,54 @@ span::after{
     background:var(--linear) ;
     color: white !important;
 }
-@media screen and (max-width: 585px) {
-    .imgf{
-        height: 400px !important;
+   @media screen and (max-width: 370px) {
+    .mains .col-sm-12 .position-absolute h4{font-size: 16px;}
+    .mains .col-sm-12 .position-absolute b{font-size: 35px;}
+    .mains .col-sm-12 .position-absolute p{font-size: 12px;}
+    .footer-body .justify-content-evenly{padding: 0px !important;}
+    #ee .m-0{font-size: 150px !important; height: 200px !important;}
+    #ee .fs-5{font-size: 14px !important;}
+    #ee .btnsre{width: 140px !important; font-size: 13px !important; height: 37px !important;}}
+   @media screen and (max-width: 585px) {
+    .imgf{height: 400px !important;}
+    .bgs .col-lg-6 .fs-16{padding-right: 0px !important;}
+    .bgs .col-lg-6 .icon{font-size: 50px !important;}
+    .header-item{padding: 90px 0px !important;}
+    .header-item span{display: none !important;}
+    .height-60 ul{height: 100px !important;}
+    .height-60 .overlay .fa-search{
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 15px !important;}
+    .height-60 .overlay p{font-size: 16px !important;}
+    .section-footer .col-sm{margin: 0px !important;}
+    .con404 .m-0{font-size: 200px !important; height: 280px !important;}
+    .con404 .h1{font-size: 20px !important;}
+    .con404 .fs-5{font-size: 16px !important;}
+    .con404 .btnsre{width: 200px !important; font-size: 19px !important; height: 50px !important;}}
+   @media screen and (max-width: 3000px) {
+    .navbar-collapse{
+        display: flex;
+        justify-content: flex-end;
     }
-   }
+    .bgs .col-lg-6 .m-0{font-size: 40px;}
+    .sect .shadow{
+        width: 85%;
+        height: 450px;
+        object-fit: cover;}}
+   @media screen and (max-width: 1200px) {
+    .bgs .col-lg-6 .m-0{
+        font-size: 30px;
+        padding: 0 !important;}
+    .bgs .col-lg-6 .late{margin-bottom:0px !important;}
+    .bgs .col-lg-6{padding: 0px 40px;}
+    .sect .shadow{width: 100%;}
+    .sect .col-lg-5{justify-content: center !important;}
+    .sect .pse{
+        padding-left: 0px !important;
+        margin-left: 0 !important;}
+    .sect .sfe{padding-right: 0px !important;}
+    .sect .pse h1{padding-left: 10px !important;}
+    .sect .pse p{padding-left: 10px !important;}
+    .mains .col-sm-12 .position-absolute b{font-size: 38px;}
+    .mains .col-sm-12 .position-absolute p{font-size: 14px;}}
